@@ -16,11 +16,11 @@ from sayhello.models import Message
 def initdb(drop):
     """Initialize the database."""
     if drop:
-        click.confirm('This operation will delete the database, do you want to continue?', abort=True)
+        click.confirm('此操作将删除数据库，是否要继续？', abort=True)
         db.drop_all()
-        click.echo('Drop tables.')
+        click.echo('删除表.')
     db.create_all()
-    click.echo('Initialized database.')
+    click.echo('初始化数据库.')
 
 
 @app.cli.command()
