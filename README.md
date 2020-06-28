@@ -4,15 +4,13 @@
 
 > Example application for *[Python Web Development with Flask](http://helloflask.com/en/book)* (《[Flask Web 开发实战](http://helloflask.com/book)》).
 
-Demo: http://sayhello.helloflask.com
-
 ![Screenshot](http://helloflask.com/screenshots/sayhello.png)
 
 ## Installation
 
 clone:
 ```
-$ git clone https://github.com/greyli/sayhello.git
+$ git clone https://github.com/Suyongzhi1997/sayhello.git
 $ cd sayhello
 ```
 create & activate virtual env then install dependency:
