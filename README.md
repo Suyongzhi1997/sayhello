@@ -2,8 +2,6 @@
 
 *Say hello to the world.*
 
-> Example application for *[Python Web Development with Flask](http://helloflask.com/en/book)* (《[Flask Web 开发实战](http://helloflask.com/book)》).
-
 ![Screenshot](http://helloflask.com/screenshots/sayhello.png)
 
 ## Installation
